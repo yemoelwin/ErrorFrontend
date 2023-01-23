@@ -1,0 +1,210 @@
+.navi-color:hover {
+    color: white !important
+}
+
+
+h4 {
+    --animate-duration: 3s;
+    /* --animate-delay: 1s; */
+    margin-bottom: .3rem !important;
+}
+
+h4:hover {
+    color: rgb(161, 160, 160) !important;
+}
+
+.navbar {
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0.5rem;
+    --bs-navbar-color: rgba(0, 0, 0, 0.55);
+    --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
+    --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0;
+    --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
+    --bs-navbar-brand-padding-y: 0.3125rem;
+    --bs-navbar-brand-margin-end: 1rem;
+    --bs-navbar-brand-font-size: 1.25rem;
+    --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);
+    --bs-navbar-brand-hover-color: rgba(0, 0, 0, 0.9);
+    --bs-navbar-nav-link-padding-x: 0.5rem;
+    --bs-navbar-toggler-padding-y: 0.25rem;
+    --bs-navbar-toggler-padding-x: 0.75rem;
+    --bs-navbar-toggler-font-size: 1.25rem;
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    --bs-navbar-toggler-border-color: rgba(0, 0, 0, 0.1);
+    --bs-navbar-toggler-border-radius: 0.375rem;
+    --bs-navbar-toggler-focus-width: 0.25rem;
+    --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+    position: relative;
+    display: flex;
+    border-radius: 0 !important;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+}
+
+/* .animate__animated.animate__bounce {} */
+
+.d-flex {
+    display: flex !important;
+    margin-right: 27rem !important;
+}
+
+.form-control {
+    display: block;
+    padding: .3rem 1.75rem !important;
+    font-size: 1rem;
+    margin-left: 5rem;
+    font-weight: 400;
+    width: 20em !important;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: n;
+    border-radius: 0.4rem !important;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+i {
+    /* outline: 1px solid #803156 !important; */
+    position: relative;
+    top: 1;
+    top: 0.4rem;
+    right: 2rem;
+    color: rgb(100, 100, 103);
+}
+
+#btn {
+    margin-left: 6rem;
+    background-color: black;
+    /* float: right; */
+}
+
+/* #num-color {
+    background-color: red;
+    color: red;
+} */
+/* container------------------------ */
+
+.x-container {
+    max-width: 1400px;
+    max-height: max-content;
+    /* background-image: ; */
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    line-height: 1.5rem;
+}
+
+.h1-color {
+    color: rgb(242, 9, 9);
+}
+
+.span-color2 {
+    color: rgb(26, 6, 6);
+}
+
+.span-color1 {
+    color: red;
+}
+
+.h2-color {
+    color: rgb(137, 133, 133);
+}
+
+.h5-color {
+    color: rgb(124, 148, 181);
+}
+
+.xx-container {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+    text-shadow: #212529;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    background-color: #282A35 !important;
+}
+
+
+
+
+.main-grid {
+    /* width: 100%; */
+    height: 100%;
+    display: grid;
+    grid-template-columns: 25% 75%;
+
+    /* ------------------- */
+}
+
+.first-main_grid {
+    border-right: 1px solid black;
+}
+
+/* div {
+    border: 1px solid black;
+} */
+
+.d-grid {
+    /* display: flex; */
+    height: 70vh;
+    border-bottom: 1px solid black;
+}
+
+
+.v-grid {
+    height: auto;
+    margin-top: 7rem;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    border: 1px solid blue;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    height: 6.5rem;
+    border-bottom: 1px solid black;
+    /* width: 100%; */
+}
+
+.nav-grid {
+    position: relative;
+    margin-left: 2rem;
+    top: 2rem;
+    /* left: 0rem; */
+    font-size: 20px;
+    height: 3rem;
+}
+
+.nav-grid a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-btn {
+    position: absolute;
+    top: .2rem;
+    right: 2rem;
+}
+
+/* .d-flax {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 8rem;
+} */
+/* 
+.a-flax span {
+    position: absolute;
+    top: 3rem;
+    font-size: 20px;
+    margin-left: 1rem;
+} */
