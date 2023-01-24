@@ -48,7 +48,12 @@ h4:hover {
 
 .d-flex {
     display: flex !important;
-    margin-right: 27rem !important;
+    margin-right: 35em !important;
+    /* float: right; */
+}
+
+form input {
+    width: 100% !important;
 }
 
 .form-control {
@@ -57,7 +62,8 @@ h4:hover {
     font-size: 1rem;
     margin-left: 5rem;
     font-weight: 400;
-    width: 20em !important;
+    width: 17em !important;
+    /* padding-left: 3rem; */
     line-height: 1.5;
     color: #212529;
     background-color: #fff;
@@ -68,6 +74,11 @@ h4:hover {
     appearance: n;
     border-radius: 0.4rem !important;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    float: right;
+}
+
+.nav-item {
+    margin: 0 .1rem;
 }
 
 i {
@@ -83,6 +94,10 @@ i {
     margin-left: 6rem;
     background-color: black;
     /* float: right; */
+}
+
+.second-grid {
+    background-color: white;
 }
 
 /* #num-color {
@@ -106,7 +121,7 @@ i {
 }
 
 .span-color2 {
-    color: rgb(26, 6, 6);
+    color: rgb(35, 2, 2);
 }
 
 .span-color1 {
@@ -114,11 +129,12 @@ i {
 }
 
 .h2-color {
-    color: rgb(137, 133, 133);
+    color: rgb(175, 188, 172);
 }
 
 .h5-color {
     color: rgb(124, 148, 181);
+    margin-top: 1rem;
 }
 
 .xx-container {
@@ -129,10 +145,9 @@ i {
     font-family: sans-serif;
     letter-spacing: 1px;
     background-color: #282A35 !important;
+    height: 380px;
+    border-top: 1px solid rgb(146, 147, 147);
 }
-
-
-
 
 .main-grid {
     /* width: 100%; */
@@ -156,7 +171,6 @@ i {
     height: 70vh;
     border-bottom: 1px solid black;
 }
-
 
 .v-grid {
     height: auto;
@@ -195,6 +209,165 @@ i {
     right: 2rem;
 }
 
+.opt {
+    margin-left: 5rem;
+    /* overflow: scroll; */
+}
+
+.b-flex {
+    display: flex !important;
+    border-bottom: .5px solid black;
+    height: 17vh;
+}
+
+.s-post-summary--stats ul li {
+    /* gap: var(--su6); */
+    margin: 15px;
+    /* width: calc(var(--su96) + var(--su12)); */
+    /* display: inline-b; */
+    /* flex-direction: column; */
+    /* flex-shrink: 0; */
+    /* flex-wrap: wrap; */
+    align-items: flex-end;
+    font-size: 13px;
+    list-style: none;
+    display: block;
+}
+
+.title-header {
+    align-items: flex-start;
+    margin: 15px;
+}
+
+a,
+.s-link {
+    text-decoration: none;
+    cursor: pointer;
+    user-select: auto;
+    font-size: 18px;
+    color: rgb(41, 41, 142);
+}
+
+.post-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 12px;
+}
+
+.post-summary-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.d-inline {
+    display: inline !important;
+}
+
+.list-is-none {
+    list-style: none;
+}
+
+.post-tag {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+.post-tag li a {
+    display: inline-flex;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.tags {
+    line-height: 18px;
+    float: left;
+}
+
+.mr4 {
+    margin-right: 6px;
+}
+
+.flex__item {
+    color: rgb(44, 47, 232);
+    background-color: rgb(202, 202, 241);
+    padding: .2rem;
+    border-radius: 3px;
+}
+
+.post-tag a:hover {
+    background-color: rgb(205, 197, 197);
+}
+
+
+/* .s-user-card.s-user-card__minimal {
+    /* display: flex; */
+/* --_uc-link-ws: nowrap;
+    --_uc-rep-fc: black;
+    --_uc-time-ws: nowrap;
+    --_uc-d: flex;
+    --_uc-g: 4px;
+    --_uc-p: 0;
+    --_uc-info-ai: center;
+    --_uc-info-fd: row; */
+/* } */
+
+
+/* .s-user-card {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+}
+
+.s-user-card-info {
+    margin-top: 2rem;
+    /* flex-direction: row; */
+/* align-items: center;
+} */
+
+.s-user-card-info a {
+    text-decoration: none;
+}
+
+.s-avatar {
+    --_av-size: 16px;
+    --_av-bg: hsl(0, 25%, 98%);
+    --_av-br: 3px;
+    --_av-fs-letter: 11px;
+    --_av-scale-badge: 1;
+    background-color: none;
+    border-radius: var(--_av-br);
+    height: var(--_av-size);
+    width: var(--_av-size);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    position: relative;
+    vertical-align: bottom;
+}
+
+.s-user-card-info a {
+    font-size: 12px;
+}
+
+
+/* .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    gap: 1em;
+} */
+
 /* .d-flax {
     position: relative;
     display: grid;
@@ -208,3 +381,8 @@ i {
     font-size: 20px;
     margin-left: 1rem;
 } */
+
+
+/* Detail css Khun kyaw */
+
+/*  */
