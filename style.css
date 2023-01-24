@@ -48,7 +48,7 @@ h4:hover {
 
 .d-flex {
     display: flex !important;
-    margin-right: 35em !important;
+    margin-right: 20em !important;
     /* float: right; */
 }
 
@@ -217,7 +217,7 @@ i {
 .b-flex {
     display: flex !important;
     border-bottom: .5px solid black;
-    height: 17vh;
+    height: 7rem;
 }
 
 .s-post-summary--stats ul li {
