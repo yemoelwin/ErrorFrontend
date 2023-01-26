@@ -1,0 +1,53 @@
+.main_error-form {
+    background-color: #d4e0e8;
+    width: 30%;
+    padding: 1rem .5rem 2.5rem .5rem;
+    margin: 2rem auto;
+    border-radius: 3px;
+    opacity: .7;
+}
+
+.error-form {
+    width: 20rem;
+    max-width: 90%;
+    margin: auto;
+}
+
+.error_form-control {
+    margin: 1rem 0;
+}
+
+.error_form-control label,
+.error_form-control input,
+.error_form-control textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.25rem;
+}
+
+.error_form-control input {
+    border: 1px solid #a1a1a1;
+    font: inherit;
+    border-radius: 2px;
+}
+
+/* .error_form-control input:focus {
+    outline-color: #fcca7f;
+} */
+
+.btn {
+    font: inherit;
+    border: 1px solid #93c4e4;
+    color: #93c4e4;
+    background: white;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+    padding: 3px 25px;
+    margin-top: .3rem;
+}
+
+.btn {
+    background-color: #6595b6;
+    color: white;
+}
