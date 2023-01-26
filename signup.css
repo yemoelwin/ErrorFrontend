@@ -75,6 +75,12 @@ h1 {
     margin: 0px 5px;
     height: 40px;
     width: 40px;
+    
+}
+
+.social-container a:hover {
+    color: #fff;
+    background: var(--grad-clr1);
 }
 
 span {
